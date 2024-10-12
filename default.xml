@@ -16,7 +16,7 @@
   <default revision="refs/heads/lineage-22.0"
            remote="github"
            sync-c="true"
-           sync-j="4" />
+           sync-j="8" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-15.0.0_r1" />
   <contactinfo bugurl="go/repo-bug" />
@@ -1397,5 +1397,4 @@
   </project>
 
   <include name="snippets/lineage.xml" />
-  <include name="snippets/pixel.xml" />
 </manifest>
